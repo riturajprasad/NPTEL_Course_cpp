@@ -19,11 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header\QSolver.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Src\QSolver.cpp" />
-    <ClCompile Include="Src\V9_T1.cpp" />
+    <ClCompile Include="Src\V16_L11.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

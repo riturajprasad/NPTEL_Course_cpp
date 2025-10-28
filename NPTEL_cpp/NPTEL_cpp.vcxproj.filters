@@ -15,15 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header\QSolver.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Src\QSolver.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Src\V9_T1.cpp">
+    <ClCompile Include="Src\V16_L11.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
