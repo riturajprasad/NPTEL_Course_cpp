@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+	/*
 	cout << "Construction, copy Oprations and Write Test" << endl;
 	Fraction f1(7, 3); cout << "Fraction f1(7, 3) = " << f1 << endl;
 	Fraction f2(7); cout << "Fraction f2(7) = " << f2 << endl;
@@ -62,6 +63,61 @@ int main()
 	cout << "Static Operations Test" << endl;
 	cout << "UNITY = " << Fraction::UNITY << endl;
 	cout << "ZERO = " << Fraction::ZERO << endl << endl;
+	*/
+
+	try 
+	{ 
+		cout << "Construct Fraction (1, 0): ";
+		Fraction f1(1, 0);
+	}
+	catch (const char* s) { cout << s << endl; } cout << endl;
+	
+	Fraction f1;
+	try
+	{
+		cout << "Read f1 = ";
+		cin >> f1; cout << f1 << endl;
+	}
+	catch (const char* s) { cout << s << endl; } cout << endl;
+
+	f1 = Fraction(5, 12); Fraction f2 = Fraction::ZERO, f3;
+	try
+	{
+		cout << "Binary Divide f3 = " << f1 << " / " << f2 << ": ";
+		f3 = f1 / f2;
+		cout << f3 << endl;
+	}
+	catch (const char* s) { cout << s << endl; }
+	try
+	{
+		cout << "Binary % f3 = " << f1 << " % " << f2 << ": ";
+		f3 = f1 % f2;
+		cout << f3 << endl;
+	}
+	catch (const char* s) { cout << s << endl; } cout << endl;
+
+	try
+	{
+		cout << "Binary Divide f3 = " << f1 << " /= " << f2 << ": ";
+		f3 = f1 /= f2;
+		cout << f3 << endl;
+	}
+	catch (const char* s) { cout << s << endl; }
+	try
+	{
+		cout << "Binary % f3 = " << f1 << " %= " << f2 << ": ";
+		f3 = f1 %= f2;
+		cout << f3 << endl;
+	}
+	catch (const char* s) { cout << s << endl; } cout << endl;
+
+	try
+	{
+		cout << "Invert: f1 = " << " ! " << f2 << ": ";
+		f1 = !f2;
+		cout << f1 << endl;
+	}
+	catch (const char* s) { cout << s << endl; } cout << endl;
 
 	return 0;
 }
