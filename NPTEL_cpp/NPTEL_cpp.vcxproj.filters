@@ -15,18 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Src\Main.cpp">
+    <ClCompile Include="Src\Main_forset.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Src\FractionNo.cpp">
+    <ClCompile Include="Src\BoundedSet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header\Diamond.h">
+    <ClInclude Include="Header\List.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Header\FractionNo.h">
+    <ClInclude Include="Header\Set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\BoundedSet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

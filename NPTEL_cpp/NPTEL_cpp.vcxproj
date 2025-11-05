@@ -19,12 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Src\FractionNo.cpp" />
-    <ClCompile Include="Src\Main.cpp" />
+    <ClCompile Include="Src\BoundedSet.cpp" />
+    <ClCompile Include="Src\Main_forset.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header\Diamond.h" />
-    <ClInclude Include="Header\FractionNo.h" />
+    <ClInclude Include="Header\BoundedSet.h" />
+    <ClInclude Include="Header\List.h" />
+    <ClInclude Include="Header\Set.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
